@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #afafaf
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Nav bar */
+
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+.iphone {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Features */
+
+#features {
+    position: relative;
+    z-index: 1;
+    padding: 7% 10%;
+    background-color: white;
+}
+
+.middle-icons {
+    font-size: 4rem;
+    color: #ef8172;
+    padding: 0 0 5% 0;
+}
+
+.middle-icons:hover {
+    color: #ff4c68;
+}
+
+.middle-boxes {
+    text-align: center;
+    padding: 0% 3%;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+
+.carousel-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.padded {
+    padding-bottom: 40px;
+}
+
+.card {
+    height: 100%;
+}
+
+/* Pricing */
+
+.pricing-text {
+    padding: 7% 15% 0%;
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+    .iphone {
+        position: static;
+        transform: rotate(0deg);
+        width: 90%;
+        padding: 0 0 0 10%;
+    }
+    
+    .first-para {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    
+}
+
+.last-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.last-para {
+    padding: 7% 15% 1%;
+}
+
+.download-btn-bot {
+    margin: 1% 1% 10% ;
+}
+
+#footer {
+    text-align: center;
+    padding-bottom: 10%;
+}
+.bottom-icons {
+    display: inline;
+    padding: 10% 1% 3%;
+    font-size: 1.5rem;
+}
